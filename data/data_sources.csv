@@ -1,0 +1,51 @@
+source_id,customer_id,source_name,source_type,created_at,status
+1,1,Zendesk,Support,2025-06-01T10:00:00+00:00,Active
+2,1,NetSuite,Finance,2025-06-02T10:00:00+00:00,Active
+3,2,Zendesk,Support,2025-06-03T10:00:00+00:00,Active
+4,2,Salesforce,CRM,2025-06-04T10:00:00+00:00,Active
+5,2,Workday,HR,2025-06-05T10:00:00+00:00,Active
+6,3,Zendesk,Support,2025-06-06T10:00:00+00:00,Active
+7,3,Stripe,Finance,2025-06-07T10:00:00+00:00,Active
+8,4,Zendesk,Support,2025-06-08T10:00:00+00:00,Active
+9,4,Google Analytics,Marketing,2025-06-09T10:00:00+00:00,Active
+10,5,Workday,HR,2025-06-10T10:00:00+00:00,Active
+11,5,Zendesk,Support,2025-06-11T10:00:00+00:00,Active
+12,5,PostgreSQL,Database,2025-06-12T10:00:00+00:00,Active
+13,6,Salesforce,CRM,2025-06-13T10:00:00+00:00,Active
+14,6,HubSpot,CRM,2025-06-14T10:00:00+00:00,Active
+15,7,HubSpot,CRM,2025-06-15T10:00:00+00:00,Active
+16,7,Workday,HR,2025-06-16T10:00:00+00:00,Active
+17,8,PostgreSQL,Database,2025-06-17T10:00:00+00:00,Active
+18,8,HubSpot,CRM,2025-06-18T10:00:00+00:00,Active
+19,8,Zendesk,Support,2025-06-19T10:00:00+00:00,Active
+20,9,Google Analytics,Marketing,2025-06-20T10:00:00+00:00,Active
+21,9,NetSuite,Finance,2025-06-21T10:00:00+00:00,Active
+22,10,PostgreSQL,Database,2025-06-22T10:00:00+00:00,Active
+23,10,Workday,HR,2025-06-23T10:00:00+00:00,Active
+24,10,Shopify,E-commerce,2025-06-24T10:00:00+00:00,Active
+25,11,Zendesk,Support,2025-06-25T10:00:00+00:00,Active
+26,11,PostgreSQL,Database,2025-06-01T10:00:00+00:00,Active
+27,11,Workday,HR,2025-06-02T10:00:00+00:00,Active
+28,12,HubSpot,CRM,2025-06-03T10:00:00+00:00,Active
+29,12,Salesforce,CRM,2025-06-04T10:00:00+00:00,Active
+30,12,Google Analytics,Marketing,2025-06-05T10:00:00+00:00,Active
+31,13,PostgreSQL,Database,2025-06-06T10:00:00+00:00,Active
+32,13,Salesforce,CRM,2025-06-07T10:00:00+00:00,Active
+33,13,Zendesk,Support,2025-06-08T10:00:00+00:00,Active
+34,14,Shopify,E-commerce,2025-06-09T10:00:00+00:00,Active
+35,14,Zendesk,Support,2025-06-10T10:00:00+00:00,Active
+36,15,HubSpot,CRM,2025-06-11T10:00:00+00:00,Active
+37,15,Google Analytics,Marketing,2025-06-12T10:00:00+00:00,Active
+38,15,Zendesk,Support,2025-06-13T10:00:00+00:00,Active
+39,16,Zendesk,Support,2025-06-14T10:00:00+00:00,Active
+40,16,Salesforce,CRM,2025-06-15T10:00:00+00:00,Active
+41,16,HubSpot,CRM,2025-06-16T10:00:00+00:00,Active
+42,17,Zendesk,Support,2025-06-17T10:00:00+00:00,Active
+43,17,NetSuite,Finance,2025-06-18T10:00:00+00:00,Active
+44,18,Stripe,Finance,2025-06-19T10:00:00+00:00,Active
+45,18,Zendesk,Support,2025-06-20T10:00:00+00:00,Active
+46,19,Google Analytics,Marketing,2025-06-21T10:00:00+00:00,Active
+47,19,NetSuite,Finance,2025-06-22T10:00:00+00:00,Active
+48,20,PostgreSQL,Database,2025-06-23T10:00:00+00:00,Active
+49,20,Zendesk,Support,2025-06-24T10:00:00+00:00,Active
+50,20,HubSpot,CRM,2025-06-25T10:00:00+00:00,Active

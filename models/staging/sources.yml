@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw
+    database: SAAS_APP
+    schema: RAW
+
+    tables:
+      - name: customers
+      - name: data_sources
+      - name: pipelines
+      - name: pipeline_runs
+      - name: data_assets
+      - name: quality_checks
+      - name: quality_results

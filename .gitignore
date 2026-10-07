@@ -1,0 +1,41 @@
+# =========================
+# dbt
+# =========================
+target/
+logs/
+dbt_packages/
+dbt_modules/
+.user.yml
+*.log
+
+# Local dbt credentials
+profiles.yml
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+dbt-env/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# macOS / Windows
+# =========================
+.DS_Store
+Thumbs.db

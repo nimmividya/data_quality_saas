@@ -1,0 +1,451 @@
+check_id,asset_id,dimension,check_name,check_type,threshold,severity,is_active,created_at
+1,49,Completeness,order_id NOT NULL,not_null,0,Medium,True,2026-01-01T08:00:00+00:00
+2,95,Uniqueness,customer_id UNIQUE,unique,0,Medium,True,2026-01-02T08:00:00+00:00
+3,130,Validity,product_id valid,validity,0,Medium,True,2026-01-03T08:00:00+00:00
+4,131,Freshness,customer_payments refreshed within SLA,freshness,24,Low,True,2026-01-04T08:00:00+00:00
+5,135,Accuracy,customer_name accuracy check,accuracy,0,High,True,2026-01-09T08:00:00+00:00
+6,125,Freshness,employees refreshed within SLA,freshness,24,Medium,True,2026-01-04T08:00:00+00:00
+7,24,Validity,customer_name valid,validity,0,Low,True,2026-01-02T08:00:00+00:00
+8,33,Uniqueness,ticket_id UNIQUE,unique,0,Medium,True,2026-01-10T08:00:00+00:00
+9,137,Completeness,product_name NOT NULL,not_null,0,High,True,2026-01-16T08:00:00+00:00
+10,32,Uniqueness,campaign_name UNIQUE,unique,0,Medium,True,2026-01-04T08:00:00+00:00
+11,102,Consistency,product_id consistency check,consistency,0,Medium,True,2026-01-07T08:00:00+00:00
+12,36,Completeness,department NOT NULL,not_null,0,High,True,2026-01-24T08:00:00+00:00
+13,119,Freshness,subscriptions refreshed within SLA,freshness,24,High,True,2026-01-12T08:00:00+00:00
+14,139,Accuracy,customer_id accuracy check,accuracy,0,Critical,True,2026-01-20T08:00:00+00:00
+15,96,Uniqueness,payment_date UNIQUE,unique,0,Medium,True,2026-01-12T08:00:00+00:00
+16,148,Completeness,product_name NOT NULL,not_null,0,Medium,True,2026-01-08T08:00:00+00:00
+17,99,Consistency,contact_id consistency check,consistency,0,High,True,2026-01-24T08:00:00+00:00
+18,140,Validity,campaign_name valid,validity,0,Critical,True,2026-01-01T08:00:00+00:00
+19,126,Validity,customer_id valid,validity,0,Medium,True,2026-01-06T08:00:00+00:00
+20,67,Freshness,product_catalog refreshed within SLA,freshness,24,Low,True,2026-01-17T08:00:00+00:00
+21,76,Consistency,product_name consistency check,consistency,0,Medium,True,2026-01-25T08:00:00+00:00
+22,73,Completeness,product_id NOT NULL,not_null,0,Critical,True,2026-01-14T08:00:00+00:00
+23,41,Consistency,customer_id consistency check,consistency,0,Low,True,2026-01-15T08:00:00+00:00
+24,55,Completeness,status NOT NULL,not_null,0,Low,True,2026-01-06T08:00:00+00:00
+25,144,Completeness,amount NOT NULL,not_null,0,Low,True,2026-01-16T08:00:00+00:00
+26,84,Consistency,start_date consistency check,consistency,0,Low,True,2026-01-01T08:00:00+00:00
+27,31,Uniqueness,product_name UNIQUE,unique,0,Critical,True,2026-01-25T08:00:00+00:00
+28,48,Validity,product_price valid,validity,0,Medium,True,2026-01-13T08:00:00+00:00
+29,117,Uniqueness,status UNIQUE,unique,0,Low,True,2026-01-04T08:00:00+00:00
+30,56,Accuracy,product_name accuracy check,accuracy,0,Low,True,2026-01-08T08:00:00+00:00
+31,123,Uniqueness,payment_id UNIQUE,unique,0,Medium,True,2026-01-22T08:00:00+00:00
+32,38,Completeness,contact_id NOT NULL,not_null,0,High,True,2026-01-04T08:00:00+00:00
+33,43,Completeness,customer_name NOT NULL,not_null,0,Medium,True,2026-01-23T08:00:00+00:00
+34,74,Accuracy,customer_id accuracy check,accuracy,0,Low,True,2026-01-19T08:00:00+00:00
+35,145,Uniqueness,product_price UNIQUE,unique,0,Low,True,2026-01-21T08:00:00+00:00
+36,124,Validity,price valid,validity,0,Medium,True,2026-01-01T08:00:00+00:00
+37,27,Freshness,customer_payments refreshed within SLA,freshness,24,Medium,True,2026-01-12T08:00:00+00:00
+38,26,Completeness,status NOT NULL,not_null,0,High,True,2026-01-08T08:00:00+00:00
+39,139,Validity,order_id valid,validity,0,Critical,True,2026-01-22T08:00:00+00:00
+40,41,Freshness,customer_payments refreshed within SLA,freshness,24,High,True,2026-01-13T08:00:00+00:00
+41,73,Validity,product_id valid,validity,0,Medium,True,2026-01-13T08:00:00+00:00
+42,55,Validity,status valid,validity,0,Low,True,2026-01-05T08:00:00+00:00
+43,105,Uniqueness,product_name UNIQUE,unique,0,Medium,True,2026-01-20T08:00:00+00:00
+44,54,Validity,contact_id valid,validity,0,High,True,2026-01-01T08:00:00+00:00
+45,84,Uniqueness,start_date UNIQUE,unique,0,High,True,2026-01-24T08:00:00+00:00
+46,18,Accuracy,status accuracy check,accuracy,0,Low,True,2026-01-05T08:00:00+00:00
+47,38,Consistency,contact_id consistency check,consistency,0,High,True,2026-01-05T08:00:00+00:00
+48,114,Accuracy,customer_id accuracy check,accuracy,0,Low,True,2026-01-20T08:00:00+00:00
+49,135,Completeness,customer_id NOT NULL,not_null,0,High,True,2026-01-08T08:00:00+00:00
+50,23,Validity,employee_id valid,validity,0,Low,True,2026-01-23T08:00:00+00:00
+51,143,Completeness,product_id NOT NULL,not_null,0,Low,True,2026-01-10T08:00:00+00:00
+52,29,Consistency,order_amount consistency check,consistency,0,Critical,True,2026-01-20T08:00:00+00:00
+53,35,Validity,subscription_id valid,validity,0,Medium,True,2026-01-18T08:00:00+00:00
+54,115,Validity,customer_id valid,validity,0,Low,True,2026-01-24T08:00:00+00:00
+55,82,Uniqueness,customer_id UNIQUE,unique,0,Medium,True,2026-01-19T08:00:00+00:00
+56,79,Accuracy,employee_id accuracy check,accuracy,0,Medium,True,2026-01-09T08:00:00+00:00
+57,35,Completeness,status NOT NULL,not_null,0,High,True,2026-01-19T08:00:00+00:00
+58,77,Consistency,invoice_id consistency check,consistency,0,Medium,True,2026-01-01T08:00:00+00:00
+59,70,Completeness,order_amount NOT NULL,not_null,0,High,True,2026-01-03T08:00:00+00:00
+60,133,Completeness,customer_id NOT NULL,not_null,0,High,True,2026-01-24T08:00:00+00:00
+61,81,Validity,start_date valid,validity,0,High,True,2026-01-14T08:00:00+00:00
+62,58,Validity,amount valid,validity,0,Low,True,2026-01-17T08:00:00+00:00
+63,98,Validity,customer_id valid,validity,0,Medium,True,2026-01-20T08:00:00+00:00
+64,24,Uniqueness,customer_id UNIQUE,unique,0,High,True,2026-01-01T08:00:00+00:00
+65,47,Completeness,order_date NOT NULL,not_null,0,High,True,2026-01-08T08:00:00+00:00
+66,30,Validity,contact_id valid,validity,0,Medium,True,2026-01-22T08:00:00+00:00
+67,35,Consistency,start_date consistency check,consistency,0,Low,True,2026-01-17T08:00:00+00:00
+68,22,Validity,customer_id valid,validity,0,Critical,True,2026-01-21T08:00:00+00:00
+69,144,Uniqueness,payment_id UNIQUE,unique,0,Medium,True,2026-01-17T08:00:00+00:00
+70,123,Consistency,amount consistency check,consistency,0,Low,True,2026-01-24T08:00:00+00:00
+71,31,Completeness,product_name NOT NULL,not_null,0,High,True,2026-01-03T08:00:00+00:00
+72,35,Accuracy,status accuracy check,accuracy,0,Critical,True,2026-01-16T08:00:00+00:00
+73,60,Validity,campaign_id valid,validity,0,Critical,True,2026-01-23T08:00:00+00:00
+74,45,Completeness,amount NOT NULL,not_null,0,Medium,True,2026-01-04T08:00:00+00:00
+75,89,Accuracy,subscription_id accuracy check,accuracy,0,Critical,True,2026-01-15T08:00:00+00:00
+76,11,Accuracy,start_date accuracy check,accuracy,0,Critical,True,2026-01-12T08:00:00+00:00
+77,127,Consistency,customer_id consistency check,consistency,0,High,True,2026-01-08T08:00:00+00:00
+78,136,Uniqueness,customer_id UNIQUE,unique,0,High,True,2026-01-10T08:00:00+00:00
+79,98,Freshness,customer_accounts refreshed within SLA,freshness,24,Medium,True,2026-01-21T08:00:00+00:00
+80,42,Consistency,created_at consistency check,consistency,0,Low,True,2026-01-20T08:00:00+00:00
+81,128,Validity,contact_id valid,validity,0,Critical,True,2026-01-11T08:00:00+00:00
+82,140,Freshness,marketing_campaigns refreshed within SLA,freshness,168,High,True,2026-01-02T08:00:00+00:00
+83,113,Completeness,product_price NOT NULL,not_null,0,High,True,2026-01-18T08:00:00+00:00
+84,143,Uniqueness,product_name UNIQUE,unique,0,Critical,True,2026-01-12T08:00:00+00:00
+85,7,Accuracy,product_name accuracy check,accuracy,0,High,True,2026-01-25T08:00:00+00:00
+86,71,Uniqueness,customer_id UNIQUE,unique,0,Medium,True,2026-01-05T08:00:00+00:00
+87,123,Completeness,payment_date NOT NULL,not_null,0,Low,True,2026-01-23T08:00:00+00:00
+88,7,Completeness,product_id NOT NULL,not_null,0,Low,True,2026-01-24T08:00:00+00:00
+89,72,Consistency,amount consistency check,consistency,0,Low,True,2026-01-11T08:00:00+00:00
+90,119,Uniqueness,start_date UNIQUE,unique,0,Medium,True,2026-01-15T08:00:00+00:00
+91,110,Freshness,marketing_campaigns refreshed within SLA,freshness,168,Medium,True,2026-01-09T08:00:00+00:00
+92,28,Freshness,product_catalog refreshed within SLA,freshness,24,High,True,2026-01-17T08:00:00+00:00
+93,100,Validity,price valid,validity,0,Medium,True,2026-01-25T08:00:00+00:00
+94,137,Accuracy,product_name accuracy check,accuracy,0,Low,True,2026-01-13T08:00:00+00:00
+95,61,Validity,employee_name valid,validity,0,Low,True,2026-01-25T08:00:00+00:00
+96,37,Uniqueness,amount UNIQUE,unique,0,High,True,2026-01-01T08:00:00+00:00
+97,96,Freshness,customer_payments refreshed within SLA,freshness,24,Medium,True,2026-01-14T08:00:00+00:00
+98,41,Validity,customer_id valid,validity,0,Medium,True,2026-01-14T08:00:00+00:00
+99,2,Uniqueness,start_date UNIQUE,unique,0,Low,True,2026-01-08T08:00:00+00:00
+100,34,Consistency,product_id consistency check,consistency,0,High,True,2026-01-15T08:00:00+00:00
+101,25,Freshness,invoices refreshed within SLA,freshness,24,Low,True,2026-01-04T08:00:00+00:00
+102,64,Consistency,product_name consistency check,consistency,0,Medium,True,2026-01-10T08:00:00+00:00
+103,21,Accuracy,price accuracy check,accuracy,0,Low,True,2026-01-16T08:00:00+00:00
+104,72,Completeness,customer_id NOT NULL,not_null,0,Low,True,2026-01-10T08:00:00+00:00
+105,102,Freshness,products refreshed within SLA,freshness,24,High,True,2026-01-08T08:00:00+00:00
+106,72,Accuracy,amount accuracy check,accuracy,0,High,True,2026-01-09T08:00:00+00:00
+107,1,Consistency,price consistency check,consistency,0,Critical,True,2026-01-07T08:00:00+00:00
+108,94,Completeness,customer_id NOT NULL,not_null,0,Low,True,2026-01-07T08:00:00+00:00
+109,130,Accuracy,product_name accuracy check,accuracy,0,Medium,True,2026-01-16T08:00:00+00:00
+110,40,Completeness,customer_id NOT NULL,not_null,0,High,True,2026-01-12T08:00:00+00:00
+111,31,Consistency,product_name consistency check,consistency,0,Medium,True,2026-01-01T08:00:00+00:00
+112,139,Uniqueness,customer_id UNIQUE,unique,0,Medium,True,2026-01-21T08:00:00+00:00
+113,147,Freshness,employees refreshed within SLA,freshness,24,Critical,True,2026-01-04T08:00:00+00:00
+114,8,Uniqueness,campaign_name UNIQUE,unique,0,High,True,2026-01-04T08:00:00+00:00
+115,101,Completeness,start_date NOT NULL,not_null,0,Medium,True,2026-01-03T08:00:00+00:00
+116,11,Completeness,status NOT NULL,not_null,0,Medium,True,2026-01-13T08:00:00+00:00
+117,136,Completeness,status NOT NULL,not_null,0,Low,True,2026-01-12T08:00:00+00:00
+118,141,Freshness,customer_payments refreshed within SLA,freshness,24,Medium,True,2026-01-06T08:00:00+00:00
+119,138,Validity,customer_id valid,validity,0,Medium,True,2026-01-19T08:00:00+00:00
+120,78,Consistency,customer_id consistency check,consistency,0,Low,True,2026-01-05T08:00:00+00:00
+121,101,Freshness,marketing_campaigns refreshed within SLA,freshness,168,Medium,True,2026-01-04T08:00:00+00:00
+122,114,Consistency,customer_id consistency check,consistency,0,Low,True,2026-01-22T08:00:00+00:00
+123,99,Uniqueness,customer_id UNIQUE,unique,0,Medium,True,2026-01-22T08:00:00+00:00
+124,48,Accuracy,product_price accuracy check,accuracy,0,Medium,True,2026-01-11T08:00:00+00:00
+125,36,Consistency,employee_name consistency check,consistency,0,High,True,2026-01-23T08:00:00+00:00
+126,145,Accuracy,product_price accuracy check,accuracy,0,Low,True,2026-01-18T08:00:00+00:00
+127,149,Completeness,start_date NOT NULL,not_null,0,Critical,True,2026-01-10T08:00:00+00:00
+128,133,Freshness,customer_contacts refreshed within SLA,freshness,12,Low,True,2026-01-25T08:00:00+00:00
+129,142,Validity,ticket_id valid,validity,0,Low,True,2026-01-08T08:00:00+00:00
+130,79,Consistency,employee_name consistency check,consistency,0,Critical,True,2026-01-10T08:00:00+00:00
+131,77,Accuracy,customer_id accuracy check,accuracy,0,Low,True,2026-01-04T08:00:00+00:00
+132,9,Accuracy,product_price accuracy check,accuracy,0,High,True,2026-01-08T08:00:00+00:00
+133,142,Freshness,support_tickets refreshed within SLA,freshness,12,High,True,2026-01-07T08:00:00+00:00
+134,32,Consistency,start_date consistency check,consistency,0,Critical,True,2026-01-06T08:00:00+00:00
+135,105,Accuracy,product_id accuracy check,accuracy,0,Low,True,2026-01-17T08:00:00+00:00
+136,116,Completeness,employee_id NOT NULL,not_null,0,Critical,True,2026-01-02T08:00:00+00:00
+137,29,Validity,order_amount valid,validity,0,High,True,2026-01-19T08:00:00+00:00
+138,89,Uniqueness,customer_id UNIQUE,unique,0,Low,True,2026-01-17T08:00:00+00:00
+139,104,Completeness,campaign_id NOT NULL,not_null,0,Medium,True,2026-01-14T08:00:00+00:00
+140,74,Freshness,customer_accounts refreshed within SLA,freshness,24,Medium,True,2026-01-17T08:00:00+00:00
+141,101,Consistency,campaign_name consistency check,consistency,0,Low,True,2026-01-06T08:00:00+00:00
+142,99,Completeness,customer_id NOT NULL,not_null,0,High,True,2026-01-23T08:00:00+00:00
+143,5,Validity,customer_id valid,validity,0,High,True,2026-01-20T08:00:00+00:00
+144,43,Validity,customer_name valid,validity,0,Low,True,2026-01-01T08:00:00+00:00
+145,146,Freshness,marketing_campaigns refreshed within SLA,freshness,168,Low,True,2026-01-01T08:00:00+00:00
+146,19,Uniqueness,campaign_id UNIQUE,unique,0,Low,True,2026-01-09T08:00:00+00:00
+147,30,Freshness,customer_contacts refreshed within SLA,freshness,12,Medium,True,2026-01-24T08:00:00+00:00
+148,85,Freshness,products refreshed within SLA,freshness,24,Medium,True,2026-01-03T08:00:00+00:00
+149,79,Completeness,employee_name NOT NULL,not_null,0,Critical,True,2026-01-11T08:00:00+00:00
+150,97,Accuracy,customer_id accuracy check,accuracy,0,Low,True,2026-01-18T08:00:00+00:00
+151,106,Completeness,status NOT NULL,not_null,0,High,True,2026-01-22T08:00:00+00:00
+152,73,Accuracy,product_name accuracy check,accuracy,0,Low,True,2026-01-12T08:00:00+00:00
+153,26,Validity,ticket_id valid,validity,0,Low,True,2026-01-07T08:00:00+00:00
+154,65,Validity,employee_id valid,validity,0,High,True,2026-01-11T08:00:00+00:00
+155,18,Consistency,status consistency check,consistency,0,High,True,2026-01-03T08:00:00+00:00
+156,9,Completeness,product_name NOT NULL,not_null,0,High,True,2026-01-06T08:00:00+00:00
+157,115,Uniqueness,start_date UNIQUE,unique,0,Low,True,2026-01-01T08:00:00+00:00
+158,59,Freshness,customer_accounts refreshed within SLA,freshness,24,Low,True,2026-01-18T08:00:00+00:00
+159,78,Validity,customer_id valid,validity,0,Medium,True,2026-01-06T08:00:00+00:00
+160,115,Completeness,start_date NOT NULL,not_null,0,High,True,2026-01-23T08:00:00+00:00
+161,43,Uniqueness,customer_id UNIQUE,unique,0,Critical,True,2026-01-25T08:00:00+00:00
+162,104,Consistency,campaign_name consistency check,consistency,0,Medium,True,2026-01-12T08:00:00+00:00
+163,78,Accuracy,customer_id accuracy check,accuracy,0,Medium,True,2026-01-07T08:00:00+00:00
+164,143,Validity,product_id valid,validity,0,Medium,True,2026-01-13T08:00:00+00:00
+165,104,Freshness,marketing_campaigns refreshed within SLA,freshness,168,Medium,True,2026-01-15T08:00:00+00:00
+166,37,Accuracy,amount accuracy check,accuracy,0,High,True,2026-01-25T08:00:00+00:00
+167,94,Accuracy,customer_id accuracy check,accuracy,0,High,True,2026-01-03T08:00:00+00:00
+168,52,Accuracy,status accuracy check,accuracy,0,Medium,True,2026-01-22T08:00:00+00:00
+169,93,Consistency,payment_date consistency check,consistency,0,Medium,True,2026-01-01T08:00:00+00:00
+170,9,Freshness,product_catalog refreshed within SLA,freshness,24,High,True,2026-01-07T08:00:00+00:00
+171,29,Freshness,customer_orders refreshed within SLA,freshness,24,High,True,2026-01-18T08:00:00+00:00
+172,90,Uniqueness,customer_id UNIQUE,unique,0,Critical,True,2026-01-21T08:00:00+00:00
+173,21,Freshness,products refreshed within SLA,freshness,24,High,True,2026-01-17T08:00:00+00:00
+174,87,Completeness,amount NOT NULL,not_null,0,Medium,True,2026-01-10T08:00:00+00:00
+175,76,Completeness,product_id NOT NULL,not_null,0,High,True,2026-01-24T08:00:00+00:00
+176,68,Completeness,payment_date NOT NULL,not_null,0,Medium,True,2026-01-21T08:00:00+00:00
+177,15,Validity,customer_id valid,validity,0,Low,True,2026-01-22T08:00:00+00:00
+178,147,Completeness,employee_id NOT NULL,not_null,0,High,True,2026-01-05T08:00:00+00:00
+179,52,Completeness,subscription_id NOT NULL,not_null,0,Low,True,2026-01-21T08:00:00+00:00
+180,93,Accuracy,amount accuracy check,accuracy,0,High,True,2026-01-02T08:00:00+00:00
+181,16,Consistency,payment_date consistency check,consistency,0,Medium,True,2026-01-23T08:00:00+00:00
+182,122,Consistency,order_id consistency check,consistency,0,Low,True,2026-01-21T08:00:00+00:00
+183,44,Freshness,employees refreshed within SLA,freshness,24,Medium,True,2026-01-02T08:00:00+00:00
+184,26,Consistency,status consistency check,consistency,0,Critical,True,2026-01-10T08:00:00+00:00
+185,134,Freshness,marketing_campaigns refreshed within SLA,freshness,168,Medium,True,2026-01-06T08:00:00+00:00
+186,16,Uniqueness,payment_id UNIQUE,unique,0,Low,True,2026-01-25T08:00:00+00:00
+187,70,Freshness,customer_orders refreshed within SLA,freshness,24,High,True,2026-01-04T08:00:00+00:00
+188,69,Freshness,products refreshed within SLA,freshness,24,High,True,2026-01-25T08:00:00+00:00
+189,60,Accuracy,campaign_name accuracy check,accuracy,0,Medium,True,2026-01-20T08:00:00+00:00
+190,141,Consistency,payment_id consistency check,consistency,0,Low,True,2026-01-05T08:00:00+00:00
+191,28,Completeness,product_id NOT NULL,not_null,0,Medium,True,2026-01-14T08:00:00+00:00
+192,36,Uniqueness,department UNIQUE,unique,0,Low,True,2026-01-22T08:00:00+00:00
+193,19,Accuracy,start_date accuracy check,accuracy,0,Low,True,2026-01-11T08:00:00+00:00
+194,134,Consistency,campaign_id consistency check,consistency,0,Medium,True,2026-01-07T08:00:00+00:00
+195,65,Uniqueness,department UNIQUE,unique,0,Medium,True,2026-01-13T08:00:00+00:00
+196,13,Uniqueness,customer_id UNIQUE,unique,0,Low,True,2026-01-17T08:00:00+00:00
+197,69,Accuracy,product_name accuracy check,accuracy,0,Low,True,2026-01-01T08:00:00+00:00
+198,134,Completeness,start_date NOT NULL,not_null,0,Medium,True,2026-01-03T08:00:00+00:00
+199,110,Completeness,campaign_id NOT NULL,not_null,0,High,True,2026-01-08T08:00:00+00:00
+200,103,Uniqueness,customer_id UNIQUE,unique,0,High,True,2026-01-09T08:00:00+00:00
+201,95,Validity,order_id valid,validity,0,Low,True,2026-01-09T08:00:00+00:00
+202,75,Validity,status valid,validity,0,Medium,True,2026-01-20T08:00:00+00:00
+203,107,Completeness,customer_name NOT NULL,not_null,0,Medium,True,2026-01-01T08:00:00+00:00
+204,69,Uniqueness,price UNIQUE,unique,0,Critical,True,2026-01-24T08:00:00+00:00
+205,14,Consistency,customer_id consistency check,consistency,0,High,True,2026-01-20T08:00:00+00:00
+206,145,Completeness,product_name NOT NULL,not_null,0,High,True,2026-01-22T08:00:00+00:00
+207,106,Validity,customer_id valid,validity,0,Low,True,2026-01-21T08:00:00+00:00
+208,104,Accuracy,start_date accuracy check,accuracy,0,Critical,True,2026-01-16T08:00:00+00:00
+209,108,Completeness,payment_id NOT NULL,not_null,0,Low,True,2026-01-03T08:00:00+00:00
+210,28,Accuracy,product_id accuracy check,accuracy,0,Medium,True,2026-01-15T08:00:00+00:00
+211,71,Accuracy,contact_id accuracy check,accuracy,0,Medium,True,2026-01-08T08:00:00+00:00
+212,108,Uniqueness,payment_date UNIQUE,unique,0,Medium,True,2026-01-05T08:00:00+00:00
+213,69,Consistency,product_name consistency check,consistency,0,High,True,2026-01-23T08:00:00+00:00
+214,68,Validity,payment_date valid,validity,0,Critical,True,2026-01-20T08:00:00+00:00
+215,145,Freshness,product_catalog refreshed within SLA,freshness,24,Medium,True,2026-01-19T08:00:00+00:00
+216,121,Validity,customer_id valid,validity,0,Medium,True,2026-01-19T08:00:00+00:00
+217,33,Completeness,customer_id NOT NULL,not_null,0,Low,True,2026-01-11T08:00:00+00:00
+218,112,Consistency,invoice_date consistency check,consistency,0,Medium,True,2026-01-14T08:00:00+00:00
+219,100,Uniqueness,price UNIQUE,unique,0,High,True,2026-01-01T08:00:00+00:00
+220,125,Completeness,employee_id NOT NULL,not_null,0,Medium,True,2026-01-03T08:00:00+00:00
+221,19,Completeness,start_date NOT NULL,not_null,0,High,True,2026-01-08T08:00:00+00:00
+222,148,Freshness,products refreshed within SLA,freshness,24,Medium,True,2026-01-07T08:00:00+00:00
+223,112,Freshness,invoices refreshed within SLA,freshness,24,Medium,True,2026-01-15T08:00:00+00:00
+224,104,Validity,campaign_id valid,validity,0,Low,True,2026-01-13T08:00:00+00:00
+225,147,Accuracy,department accuracy check,accuracy,0,Low,True,2026-01-03T08:00:00+00:00
+226,78,Completeness,customer_id NOT NULL,not_null,0,Low,True,2026-01-08T08:00:00+00:00
+227,105,Consistency,product_name consistency check,consistency,0,High,True,2026-01-18T08:00:00+00:00
+228,112,Uniqueness,invoice_date UNIQUE,unique,0,Medium,True,2026-01-13T08:00:00+00:00
+229,63,Consistency,product_name consistency check,consistency,0,Low,True,2026-01-04T08:00:00+00:00
+230,143,Consistency,product_id consistency check,consistency,0,Medium,True,2026-01-14T08:00:00+00:00
+231,142,Completeness,created_at NOT NULL,not_null,0,Medium,True,2026-01-09T08:00:00+00:00
+232,60,Consistency,campaign_name consistency check,consistency,0,Low,True,2026-01-22T08:00:00+00:00
+233,92,Completeness,department NOT NULL,not_null,0,Medium,True,2026-01-25T08:00:00+00:00
+234,5,Accuracy,customer_id accuracy check,accuracy,0,Low,True,2026-01-19T08:00:00+00:00
+235,15,Consistency,ticket_id consistency check,consistency,0,Medium,True,2026-01-21T08:00:00+00:00
+236,89,Freshness,subscriptions refreshed within SLA,freshness,24,Low,True,2026-01-16T08:00:00+00:00
+237,80,Freshness,customer_orders refreshed within SLA,freshness,24,Medium,True,2026-01-13T08:00:00+00:00
+238,86,Validity,employee_id valid,validity,0,High,True,2026-01-08T08:00:00+00:00
+239,3,Accuracy,invoice_date accuracy check,accuracy,0,Medium,True,2026-01-13T08:00:00+00:00
+240,30,Accuracy,customer_id accuracy check,accuracy,0,Medium,True,2026-01-23T08:00:00+00:00
+241,77,Uniqueness,amount UNIQUE,unique,0,High,True,2026-01-03T08:00:00+00:00
+242,32,Accuracy,campaign_name accuracy check,accuracy,0,Critical,True,2026-01-05T08:00:00+00:00
+243,33,Freshness,support_tickets refreshed within SLA,freshness,12,Medium,True,2026-01-12T08:00:00+00:00
+244,20,Freshness,customer_orders refreshed within SLA,freshness,24,Medium,True,2026-01-15T08:00:00+00:00
+245,10,Accuracy,customer_id accuracy check,accuracy,0,Medium,True,2026-01-11T08:00:00+00:00
+246,18,Uniqueness,status UNIQUE,unique,0,Low,True,2026-01-07T08:00:00+00:00
+247,119,Completeness,start_date NOT NULL,not_null,0,High,True,2026-01-11T08:00:00+00:00
+248,132,Freshness,products refreshed within SLA,freshness,24,High,True,2026-01-22T08:00:00+00:00
+249,80,Completeness,customer_id NOT NULL,not_null,0,Low,True,2026-01-12T08:00:00+00:00
+250,126,Uniqueness,invoice_id UNIQUE,unique,0,High,True,2026-01-05T08:00:00+00:00
+251,77,Freshness,invoices refreshed within SLA,freshness,24,Critical,True,2026-01-02T08:00:00+00:00
+252,59,Accuracy,customer_id accuracy check,accuracy,0,Medium,True,2026-01-19T08:00:00+00:00
+253,60,Freshness,marketing_campaigns refreshed within SLA,freshness,168,Medium,True,2026-01-21T08:00:00+00:00
+254,32,Validity,start_date valid,validity,0,Medium,True,2026-01-08T08:00:00+00:00
+255,10,Uniqueness,customer_id UNIQUE,unique,0,Medium,True,2026-01-10T08:00:00+00:00
+256,33,Accuracy,status accuracy check,accuracy,0,Critical,True,2026-01-13T08:00:00+00:00
+257,41,Accuracy,customer_id accuracy check,accuracy,0,High,True,2026-01-16T08:00:00+00:00
+258,145,Consistency,product_id consistency check,consistency,0,Medium,True,2026-01-20T08:00:00+00:00
+259,94,Uniqueness,customer_id UNIQUE,unique,0,Medium,True,2026-01-05T08:00:00+00:00
+260,22,Completeness,customer_id NOT NULL,not_null,0,Medium,True,2026-01-19T08:00:00+00:00
+261,54,Freshness,customer_contacts refreshed within SLA,freshness,12,Critical,True,2026-01-02T08:00:00+00:00
+262,146,Accuracy,campaign_name accuracy check,accuracy,0,High,True,2026-01-24T08:00:00+00:00
+263,63,Accuracy,product_name accuracy check,accuracy,0,High,True,2026-01-05T08:00:00+00:00
+264,46,Freshness,products refreshed within SLA,freshness,24,Low,True,2026-01-06T08:00:00+00:00
+265,46,Validity,product_id valid,validity,0,High,True,2026-01-07T08:00:00+00:00
+266,14,Completeness,order_amount NOT NULL,not_null,0,Low,True,2026-01-19T08:00:00+00:00
+267,19,Freshness,marketing_campaigns refreshed within SLA,freshness,168,Low,True,2026-01-10T08:00:00+00:00
+268,82,Validity,amount valid,validity,0,Medium,True,2026-01-17T08:00:00+00:00
+269,89,Consistency,status consistency check,consistency,0,Low,True,2026-01-18T08:00:00+00:00
+270,23,Completeness,employee_name NOT NULL,not_null,0,Medium,True,2026-01-24T08:00:00+00:00
+271,67,Consistency,product_name consistency check,consistency,0,Medium,True,2026-01-16T08:00:00+00:00
+272,114,Freshness,customer_contacts refreshed within SLA,freshness,12,Low,True,2026-01-21T08:00:00+00:00
+273,54,Completeness,contact_id NOT NULL,not_null,0,Medium,True,2026-01-04T08:00:00+00:00
+274,120,Freshness,product_catalog refreshed within SLA,freshness,24,Medium,True,2026-01-16T08:00:00+00:00
+275,119,Accuracy,customer_id accuracy check,accuracy,0,High,True,2026-01-13T08:00:00+00:00
+276,82,Consistency,amount consistency check,consistency,0,High,True,2026-01-16T08:00:00+00:00
+277,53,Completeness,employee_name NOT NULL,not_null,0,Low,True,2026-01-23T08:00:00+00:00
+278,91,Completeness,price NOT NULL,not_null,0,Medium,True,2026-01-23T08:00:00+00:00
+279,147,Consistency,department consistency check,consistency,0,Medium,True,2026-01-02T08:00:00+00:00
+280,100,Accuracy,product_id accuracy check,accuracy,0,High,True,2026-01-02T08:00:00+00:00
+281,143,Freshness,product_catalog refreshed within SLA,freshness,24,High,True,2026-01-15T08:00:00+00:00
+282,64,Accuracy,product_id accuracy check,accuracy,0,Medium,True,2026-01-07T08:00:00+00:00
+283,3,Completeness,invoice_date NOT NULL,not_null,0,High,True,2026-01-12T08:00:00+00:00
+284,64,Freshness,product_catalog refreshed within SLA,freshness,24,High,True,2026-01-09T08:00:00+00:00
+285,108,Validity,amount valid,validity,0,High,True,2026-01-04T08:00:00+00:00
+286,82,Accuracy,amount accuracy check,accuracy,0,Critical,True,2026-01-18T08:00:00+00:00
+287,50,Consistency,customer_id consistency check,consistency,0,Low,True,2026-01-17T08:00:00+00:00
+288,117,Accuracy,status accuracy check,accuracy,0,High,True,2026-01-06T08:00:00+00:00
+289,123,Freshness,customer_payments refreshed within SLA,freshness,24,Medium,True,2026-01-25T08:00:00+00:00
+290,138,Accuracy,customer_name accuracy check,accuracy,0,Medium,True,2026-01-18T08:00:00+00:00
+291,81,Freshness,marketing_campaigns refreshed within SLA,freshness,168,Low,True,2026-01-15T08:00:00+00:00
+292,57,Consistency,status consistency check,consistency,0,Medium,True,2026-01-13T08:00:00+00:00
+293,58,Consistency,payment_date consistency check,consistency,0,Critical,True,2026-01-16T08:00:00+00:00
+294,20,Validity,order_amount valid,validity,0,High,True,2026-01-13T08:00:00+00:00
+295,149,Freshness,subscriptions refreshed within SLA,freshness,24,Low,True,2026-01-09T08:00:00+00:00
+296,88,Uniqueness,campaign_name UNIQUE,unique,0,Medium,True,2026-01-13T08:00:00+00:00
+297,20,Accuracy,order_date accuracy check,accuracy,0,Medium,True,2026-01-12T08:00:00+00:00
+298,134,Uniqueness,campaign_id UNIQUE,unique,0,Low,True,2026-01-05T08:00:00+00:00
+299,117,Completeness,customer_id NOT NULL,not_null,0,Medium,True,2026-01-07T08:00:00+00:00
+300,3,Consistency,invoice_date consistency check,consistency,0,Low,True,2026-01-11T08:00:00+00:00
+301,38,Validity,contact_id valid,validity,0,High,True,2026-01-03T08:00:00+00:00
+302,39,Completeness,campaign_id NOT NULL,not_null,0,High,True,2026-01-10T08:00:00+00:00
+303,26,Uniqueness,customer_id UNIQUE,unique,0,Medium,True,2026-01-09T08:00:00+00:00
+304,3,Freshness,invoices refreshed within SLA,freshness,24,Medium,True,2026-01-10T08:00:00+00:00
+305,133,Accuracy,contact_id accuracy check,accuracy,0,Medium,True,2026-01-23T08:00:00+00:00
+306,67,Uniqueness,product_id UNIQUE,unique,0,Critical,True,2026-01-18T08:00:00+00:00
+307,147,Uniqueness,employee_id UNIQUE,unique,0,Low,True,2026-01-06T08:00:00+00:00
+308,117,Consistency,customer_id consistency check,consistency,0,Medium,True,2026-01-05T08:00:00+00:00
+309,36,Accuracy,employee_name accuracy check,accuracy,0,Medium,True,2026-01-21T08:00:00+00:00
+310,58,Accuracy,payment_date accuracy check,accuracy,0,Low,True,2026-01-15T08:00:00+00:00
+311,54,Consistency,customer_id consistency check,consistency,0,High,True,2026-01-03T08:00:00+00:00
+312,98,Accuracy,customer_name accuracy check,accuracy,0,Critical,True,2026-01-19T08:00:00+00:00
+313,68,Accuracy,customer_id accuracy check,accuracy,0,Medium,True,2026-01-22T08:00:00+00:00
+314,150,Validity,order_id valid,validity,0,Medium,True,2026-01-12T08:00:00+00:00
+315,65,Freshness,employees refreshed within SLA,freshness,24,Low,True,2026-01-12T08:00:00+00:00
+316,1,Freshness,products refreshed within SLA,freshness,24,Medium,True,2026-01-05T08:00:00+00:00
+317,57,Accuracy,start_date accuracy check,accuracy,0,Low,True,2026-01-14T08:00:00+00:00
+318,137,Uniqueness,product_name UNIQUE,unique,0,High,True,2026-01-14T08:00:00+00:00
+319,31,Accuracy,price accuracy check,accuracy,0,Medium,True,2026-01-02T08:00:00+00:00
+320,89,Validity,status valid,validity,0,High,True,2026-01-19T08:00:00+00:00
+321,9,Consistency,product_price consistency check,consistency,0,Critical,True,2026-01-09T08:00:00+00:00
+322,47,Freshness,customer_orders refreshed within SLA,freshness,24,Low,True,2026-01-09T08:00:00+00:00
+323,34,Accuracy,product_name accuracy check,accuracy,0,High,True,2026-01-14T08:00:00+00:00
+324,113,Freshness,product_catalog refreshed within SLA,freshness,24,Low,True,2026-01-19T08:00:00+00:00
+325,7,Consistency,product_id consistency check,consistency,0,High,True,2026-01-01T08:00:00+00:00
+326,124,Uniqueness,product_id UNIQUE,unique,0,Medium,True,2026-01-02T08:00:00+00:00
+327,118,Freshness,invoices refreshed within SLA,freshness,24,High,True,2026-01-09T08:00:00+00:00
+328,121,Accuracy,contact_id accuracy check,accuracy,0,High,True,2026-01-18T08:00:00+00:00
+329,2,Freshness,subscriptions refreshed within SLA,freshness,24,High,True,2026-01-09T08:00:00+00:00
+330,74,Completeness,customer_id NOT NULL,not_null,0,High,True,2026-01-16T08:00:00+00:00
+331,38,Accuracy,customer_id accuracy check,accuracy,0,Medium,True,2026-01-06T08:00:00+00:00
+332,107,Consistency,customer_name consistency check,consistency,0,Medium,True,2026-01-25T08:00:00+00:00
+333,140,Uniqueness,start_date UNIQUE,unique,0,Low,True,2026-01-25T08:00:00+00:00
+334,43,Consistency,customer_id consistency check,consistency,0,Critical,True,2026-01-24T08:00:00+00:00
+335,41,Uniqueness,amount UNIQUE,unique,0,Medium,True,2026-01-17T08:00:00+00:00
+336,83,Freshness,support_tickets refreshed within SLA,freshness,12,Low,True,2026-01-21T08:00:00+00:00
+337,18,Validity,status valid,validity,0,Critical,True,2026-01-04T08:00:00+00:00
+338,85,Validity,price valid,validity,0,High,True,2026-01-04T08:00:00+00:00
+339,17,Freshness,subscriptions refreshed within SLA,freshness,24,Medium,True,2026-01-02T08:00:00+00:00
+340,62,Freshness,support_tickets refreshed within SLA,freshness,12,Low,True,2026-01-03T08:00:00+00:00
+341,53,Consistency,employee_id consistency check,consistency,0,Medium,True,2026-01-25T08:00:00+00:00
+342,32,Completeness,campaign_id NOT NULL,not_null,0,High,True,2026-01-07T08:00:00+00:00
+343,76,Validity,price valid,validity,0,High,True,2026-01-23T08:00:00+00:00
+344,85,Uniqueness,product_id UNIQUE,unique,0,High,True,2026-01-05T08:00:00+00:00
+345,70,Uniqueness,order_amount UNIQUE,unique,0,Medium,True,2026-01-02T08:00:00+00:00
+346,76,Uniqueness,product_id UNIQUE,unique,0,Medium,True,2026-01-22T08:00:00+00:00
+347,138,Consistency,customer_name consistency check,consistency,0,High,True,2026-01-17T08:00:00+00:00
+348,74,Validity,customer_id valid,validity,0,Low,True,2026-01-18T08:00:00+00:00
+349,128,Completeness,contact_id NOT NULL,not_null,0,Low,True,2026-01-12T08:00:00+00:00
+350,74,Uniqueness,customer_id UNIQUE,unique,0,High,True,2026-01-15T08:00:00+00:00
+351,27,Uniqueness,payment_id UNIQUE,unique,0,Medium,True,2026-01-13T08:00:00+00:00
+352,130,Consistency,product_price consistency check,consistency,0,Medium,True,2026-01-18T08:00:00+00:00
+353,38,Uniqueness,contact_id UNIQUE,unique,0,Medium,True,2026-01-02T08:00:00+00:00
+354,26,Freshness,support_tickets refreshed within SLA,freshness,12,Medium,True,2026-01-06T08:00:00+00:00
+355,120,Uniqueness,product_id UNIQUE,unique,0,Medium,True,2026-01-17T08:00:00+00:00
+356,139,Consistency,customer_id consistency check,consistency,0,Medium,True,2026-01-23T08:00:00+00:00
+357,4,Validity,customer_id valid,validity,0,Critical,True,2026-01-15T08:00:00+00:00
+358,71,Freshness,customer_contacts refreshed within SLA,freshness,12,Medium,True,2026-01-07T08:00:00+00:00
+359,6,Accuracy,customer_id accuracy check,accuracy,0,High,True,2026-01-21T08:00:00+00:00
+360,64,Uniqueness,product_id UNIQUE,unique,0,Medium,True,2026-01-08T08:00:00+00:00
+361,145,Validity,product_name valid,validity,0,Medium,True,2026-01-23T08:00:00+00:00
+362,85,Accuracy,product_id accuracy check,accuracy,0,Medium,True,2026-01-02T08:00:00+00:00
+363,8,Freshness,marketing_campaigns refreshed within SLA,freshness,168,Critical,True,2026-01-03T08:00:00+00:00
+364,111,Consistency,status consistency check,consistency,0,High,True,2026-01-11T08:00:00+00:00
+365,87,Freshness,customer_payments refreshed within SLA,freshness,24,Medium,True,2026-01-11T08:00:00+00:00
+366,6,Completeness,order_id NOT NULL,not_null,0,Medium,True,2026-01-23T08:00:00+00:00
+367,128,Uniqueness,contact_id UNIQUE,unique,0,Medium,True,2026-01-10T08:00:00+00:00
+368,13,Freshness,customer_accounts refreshed within SLA,freshness,24,Low,True,2026-01-16T08:00:00+00:00
+369,66,Uniqueness,start_date UNIQUE,unique,0,Critical,True,2026-01-14T08:00:00+00:00
+370,4,Completeness,created_at NOT NULL,not_null,0,High,True,2026-01-17T08:00:00+00:00
+371,143,Accuracy,product_price accuracy check,accuracy,0,Medium,True,2026-01-11T08:00:00+00:00
+372,41,Completeness,payment_id NOT NULL,not_null,0,High,True,2026-01-18T08:00:00+00:00
+373,42,Completeness,customer_id NOT NULL,not_null,0,High,True,2026-01-19T08:00:00+00:00
+374,21,Validity,price valid,validity,0,High,True,2026-01-18T08:00:00+00:00
+375,116,Accuracy,employee_name accuracy check,accuracy,0,High,True,2026-01-03T08:00:00+00:00
+376,129,Uniqueness,product_name UNIQUE,unique,0,Low,True,2026-01-14T08:00:00+00:00
+377,48,Freshness,product_catalog refreshed within SLA,freshness,24,Low,True,2026-01-10T08:00:00+00:00
+378,62,Accuracy,customer_id accuracy check,accuracy,0,Medium,True,2026-01-02T08:00:00+00:00
+379,84,Accuracy,start_date accuracy check,accuracy,0,Low,True,2026-01-22T08:00:00+00:00
+380,68,Uniqueness,payment_id UNIQUE,unique,0,Medium,True,2026-01-19T08:00:00+00:00
+381,56,Consistency,product_id consistency check,consistency,0,Medium,True,2026-01-09T08:00:00+00:00
+382,94,Freshness,customer_accounts refreshed within SLA,freshness,24,High,True,2026-01-04T08:00:00+00:00
+383,103,Consistency,ticket_id consistency check,consistency,0,Low,True,2026-01-10T08:00:00+00:00
+384,97,Completeness,created_at NOT NULL,not_null,0,Critical,True,2026-01-17T08:00:00+00:00
+385,83,Accuracy,ticket_id accuracy check,accuracy,0,Low,True,2026-01-20T08:00:00+00:00
+386,91,Consistency,product_id consistency check,consistency,0,Medium,True,2026-01-22T08:00:00+00:00
+387,38,Freshness,customer_contacts refreshed within SLA,freshness,12,Critical,True,2026-01-07T08:00:00+00:00
+388,127,Freshness,customer_orders refreshed within SLA,freshness,24,Medium,True,2026-01-09T08:00:00+00:00
+389,136,Accuracy,status accuracy check,accuracy,0,Medium,True,2026-01-11T08:00:00+00:00
+390,28,Validity,product_name valid,validity,0,Medium,True,2026-01-16T08:00:00+00:00
+391,30,Consistency,contact_id consistency check,consistency,0,Critical,True,2026-01-21T08:00:00+00:00
+392,75,Uniqueness,customer_id UNIQUE,unique,0,Low,True,2026-01-21T08:00:00+00:00
+393,95,Accuracy,order_id accuracy check,accuracy,0,Low,True,2026-01-11T08:00:00+00:00
+394,95,Completeness,order_id NOT NULL,not_null,0,Low,True,2026-01-10T08:00:00+00:00
+395,36,Freshness,employees refreshed within SLA,freshness,24,High,True,2026-01-20T08:00:00+00:00
+396,25,Accuracy,invoice_date accuracy check,accuracy,0,Medium,True,2026-01-05T08:00:00+00:00
+397,106,Consistency,status consistency check,consistency,0,Low,True,2026-01-24T08:00:00+00:00
+398,96,Accuracy,customer_id accuracy check,accuracy,0,Medium,True,2026-01-15T08:00:00+00:00
+399,97,Freshness,support_tickets refreshed within SLA,freshness,12,Medium,True,2026-01-16T08:00:00+00:00
+400,27,Consistency,payment_date consistency check,consistency,0,Medium,True,2026-01-11T08:00:00+00:00
+401,39,Uniqueness,start_date UNIQUE,unique,0,Medium,True,2026-01-08T08:00:00+00:00
+402,40,Uniqueness,customer_name UNIQUE,unique,0,High,True,2026-01-11T08:00:00+00:00
+403,90,Validity,order_date valid,validity,0,Medium,True,2026-01-20T08:00:00+00:00
+404,87,Validity,amount valid,validity,0,Medium,True,2026-01-09T08:00:00+00:00
+405,122,Validity,order_date valid,validity,0,Low,True,2026-01-20T08:00:00+00:00
+406,22,Accuracy,amount accuracy check,accuracy,0,Low,True,2026-01-20T08:00:00+00:00
+407,50,Uniqueness,customer_id UNIQUE,unique,0,Medium,True,2026-01-18T08:00:00+00:00
+408,137,Validity,product_id valid,validity,0,Low,True,2026-01-15T08:00:00+00:00
+409,113,Validity,product_name valid,validity,0,High,True,2026-01-16T08:00:00+00:00
+410,71,Consistency,contact_id consistency check,consistency,0,Critical,True,2026-01-06T08:00:00+00:00
+411,6,Consistency,order_amount consistency check,consistency,0,Medium,True,2026-01-22T08:00:00+00:00
+412,22,Freshness,customer_payments refreshed within SLA,freshness,24,Low,True,2026-01-22T08:00:00+00:00
+413,84,Freshness,subscriptions refreshed within SLA,freshness,24,High,True,2026-01-25T08:00:00+00:00
+414,119,Consistency,subscription_id consistency check,consistency,0,Low,True,2026-01-14T08:00:00+00:00
+415,24,Accuracy,customer_name accuracy check,accuracy,0,Low,True,2026-01-03T08:00:00+00:00
+416,87,Accuracy,amount accuracy check,accuracy,0,Medium,True,2026-01-12T08:00:00+00:00
+417,86,Freshness,employees refreshed within SLA,freshness,24,Medium,True,2026-01-07T08:00:00+00:00
+418,86,Completeness,employee_id NOT NULL,not_null,0,Low,True,2026-01-06T08:00:00+00:00
+419,51,Consistency,invoice_date consistency check,consistency,0,High,True,2026-01-19T08:00:00+00:00
+420,20,Consistency,customer_id consistency check,consistency,0,Medium,True,2026-01-14T08:00:00+00:00
+421,7,Uniqueness,product_price UNIQUE,unique,0,High,True,2026-01-02T08:00:00+00:00
+422,56,Uniqueness,product_id UNIQUE,unique,0,Medium,True,2026-01-11T08:00:00+00:00
+423,55,Uniqueness,created_at UNIQUE,unique,0,Medium,True,2026-01-07T08:00:00+00:00
+424,118,Accuracy,invoice_date accuracy check,accuracy,0,Low,True,2026-01-10T08:00:00+00:00
+425,112,Accuracy,customer_id accuracy check,accuracy,0,High,True,2026-01-12T08:00:00+00:00
+426,3,Uniqueness,amount UNIQUE,unique,0,Low,True,2026-01-14T08:00:00+00:00
+427,126,Accuracy,amount accuracy check,accuracy,0,Medium,True,2026-01-07T08:00:00+00:00
+428,44,Completeness,employee_id NOT NULL,not_null,0,Low,True,2026-01-03T08:00:00+00:00
+429,53,Accuracy,employee_id accuracy check,accuracy,0,Medium,True,2026-01-24T08:00:00+00:00
+430,107,Accuracy,customer_id accuracy check,accuracy,0,Medium,True,2026-01-02T08:00:00+00:00
+431,128,Consistency,customer_id consistency check,consistency,0,Critical,True,2026-01-13T08:00:00+00:00
+432,49,Uniqueness,order_amount UNIQUE,unique,0,Critical,True,2026-01-14T08:00:00+00:00
+433,39,Validity,campaign_id valid,validity,0,Low,True,2026-01-09T08:00:00+00:00
+434,117,Freshness,support_tickets refreshed within SLA,freshness,12,Low,True,2026-01-08T08:00:00+00:00
+435,66,Accuracy,customer_id accuracy check,accuracy,0,High,True,2026-01-15T08:00:00+00:00
+436,12,Freshness,marketing_campaigns refreshed within SLA,freshness,168,High,True,2026-01-15T08:00:00+00:00
+437,101,Uniqueness,start_date UNIQUE,unique,0,High,True,2026-01-05T08:00:00+00:00
+438,92,Consistency,department consistency check,consistency,0,Medium,True,2026-01-24T08:00:00+00:00
+439,111,Uniqueness,customer_id UNIQUE,unique,0,Low,True,2026-01-10T08:00:00+00:00
+440,49,Accuracy,customer_id accuracy check,accuracy,0,High,True,2026-01-16T08:00:00+00:00
+441,109,Freshness,customer_orders refreshed within SLA,freshness,24,Medium,True,2026-01-06T08:00:00+00:00
+442,131,Consistency,amount consistency check,consistency,0,Critical,True,2026-01-19T08:00:00+00:00
+443,42,Freshness,support_tickets refreshed within SLA,freshness,12,High,True,2026-01-22T08:00:00+00:00
+444,56,Freshness,products refreshed within SLA,freshness,24,Medium,True,2026-01-10T08:00:00+00:00
+445,115,Consistency,start_date consistency check,consistency,0,Medium,True,2026-01-25T08:00:00+00:00
+446,94,Consistency,customer_name consistency check,consistency,0,Medium,True,2026-01-08T08:00:00+00:00
+447,150,Consistency,customer_id consistency check,consistency,0,Low,True,2026-01-11T08:00:00+00:00
+448,24,Consistency,customer_name consistency check,consistency,0,Medium,True,2026-01-25T08:00:00+00:00
+449,130,Freshness,product_catalog refreshed within SLA,freshness,24,High,True,2026-01-17T08:00:00+00:00
+450,84,Validity,start_date valid,validity,0,High,True,2026-01-23T08:00:00+00:00

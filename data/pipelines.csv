@@ -1,0 +1,76 @@
+pipeline_id,source_id,pipeline_name,schedule,expected_frequency_minutes,status,created_at
+1,1,Zendesk Pipeline 1,Hourly,60,Active,2025-07-01T08:00:00+00:00
+2,1,Zendesk Pipeline 2,Hourly,60,Active,2025-07-02T08:00:00+00:00
+3,2,NetSuite Pipeline 1,Hourly,60,Active,2025-07-03T08:00:00+00:00
+4,2,NetSuite Pipeline 2,Hourly,60,Active,2025-07-04T08:00:00+00:00
+5,3,Zendesk Pipeline 1,Every 6 hours,360,Active,2025-07-05T08:00:00+00:00
+6,4,Salesforce Pipeline 1,Every 6 hours,360,Active,2025-07-06T08:00:00+00:00
+7,5,Workday Pipeline 1,Hourly,60,Active,2025-07-07T08:00:00+00:00
+8,6,Zendesk Pipeline 1,Hourly,60,Active,2025-07-08T08:00:00+00:00
+9,7,Stripe Pipeline 1,Daily,1440,Active,2025-07-09T08:00:00+00:00
+10,7,Stripe Pipeline 2,Daily,1440,Active,2025-07-10T08:00:00+00:00
+11,8,Zendesk Pipeline 1,Hourly,60,Active,2025-07-11T08:00:00+00:00
+12,8,Zendesk Pipeline 2,Hourly,60,Active,2025-07-12T08:00:00+00:00
+13,9,Google Analytics Pipeline 1,Hourly,60,Active,2025-07-13T08:00:00+00:00
+14,10,Workday Pipeline 1,Every 6 hours,360,Active,2025-07-14T08:00:00+00:00
+15,11,Zendesk Pipeline 1,Hourly,60,Active,2025-07-15T08:00:00+00:00
+16,11,Zendesk Pipeline 2,Hourly,60,Active,2025-07-16T08:00:00+00:00
+17,12,PostgreSQL Pipeline 1,Daily,1440,Active,2025-07-17T08:00:00+00:00
+18,12,PostgreSQL Pipeline 2,Daily,1440,Active,2025-07-18T08:00:00+00:00
+19,13,Salesforce Pipeline 1,Hourly,60,Active,2025-07-19T08:00:00+00:00
+20,13,Salesforce Pipeline 2,Weekly,10080,Active,2025-07-20T08:00:00+00:00
+21,14,HubSpot Pipeline 1,Daily,1440,Active,2025-07-21T08:00:00+00:00
+22,15,CRM Pipeline,Daily,1440,Active,2025-07-22T08:00:00+00:00
+23,15,HubSpot Pipeline 2,Daily,1440,Active,2025-07-23T08:00:00+00:00
+24,16,Workday Pipeline 1,Daily,1440,Active,2025-07-24T08:00:00+00:00
+25,17,PostgreSQL Pipeline 1,Daily,1440,Active,2025-07-25T08:00:00+00:00
+26,18,HubSpot Pipeline 1,Daily,1440,Active,2025-07-01T08:00:00+00:00
+27,19,Zendesk Pipeline 1,Hourly,60,Active,2025-07-02T08:00:00+00:00
+28,19,Zendesk Pipeline 2,Every 6 hours,360,Active,2025-07-03T08:00:00+00:00
+29,20,Google Analytics Pipeline 1,Every 6 hours,360,Active,2025-07-04T08:00:00+00:00
+30,20,Google Analytics Pipeline 2,Daily,1440,Active,2025-07-05T08:00:00+00:00
+31,21,NetSuite Pipeline 1,Hourly,60,Active,2025-07-06T08:00:00+00:00
+32,22,PostgreSQL Pipeline 1,Every 6 hours,360,Active,2025-07-07T08:00:00+00:00
+33,22,PostgreSQL Pipeline 2,Weekly,10080,Active,2025-07-08T08:00:00+00:00
+34,23,Workday Pipeline 1,Daily,1440,Active,2025-07-09T08:00:00+00:00
+35,23,Workday Pipeline 2,Weekly,10080,Active,2025-07-10T08:00:00+00:00
+36,24,Shopify Pipeline 1,Daily,1440,Active,2025-07-11T08:00:00+00:00
+37,25,Zendesk Pipeline 1,Weekly,10080,Active,2025-07-12T08:00:00+00:00
+38,25,Zendesk Pipeline 2,Daily,1440,Active,2025-07-13T08:00:00+00:00
+39,26,PostgreSQL Pipeline 1,Hourly,60,Active,2025-07-14T08:00:00+00:00
+40,27,Workday Pipeline 1,Hourly,60,Active,2025-07-15T08:00:00+00:00
+41,27,Workday Pipeline 2,Daily,1440,Active,2025-07-16T08:00:00+00:00
+42,28,HubSpot Pipeline 1,Every 6 hours,360,Active,2025-07-17T08:00:00+00:00
+43,29,Salesforce Pipeline 1,Daily,1440,Active,2025-07-18T08:00:00+00:00
+44,30,Google Analytics Pipeline 1,Every 6 hours,360,Active,2025-07-19T08:00:00+00:00
+45,31,Billing Pipeline,Hourly,60,Active,2025-07-20T08:00:00+00:00
+46,32,Billing Pipeline,Daily,1440,Active,2025-07-21T08:00:00+00:00
+47,32,Salesforce Pipeline 2,Every 6 hours,360,Active,2025-07-22T08:00:00+00:00
+48,33,Billing Pipeline,Every 6 hours,360,Active,2025-07-23T08:00:00+00:00
+49,33,Zendesk Pipeline 2,Hourly,60,Active,2025-07-24T08:00:00+00:00
+50,34,Shopify Pipeline 1,Hourly,60,Active,2025-07-25T08:00:00+00:00
+51,34,Shopify Pipeline 2,Hourly,60,Active,2025-07-01T08:00:00+00:00
+52,35,Zendesk Pipeline 1,Daily,1440,Active,2025-07-02T08:00:00+00:00
+53,35,Zendesk Pipeline 2,Weekly,10080,Active,2025-07-03T08:00:00+00:00
+54,36,HubSpot Pipeline 1,Daily,1440,Active,2025-07-04T08:00:00+00:00
+55,37,Google Analytics Pipeline 1,Daily,1440,Active,2025-07-05T08:00:00+00:00
+56,37,Google Analytics Pipeline 2,Every 6 hours,360,Active,2025-07-06T08:00:00+00:00
+57,38,Zendesk Pipeline 1,Hourly,60,Active,2025-07-07T08:00:00+00:00
+58,39,Zendesk Pipeline 1,Daily,1440,Active,2025-07-08T08:00:00+00:00
+59,40,Salesforce Pipeline 1,Daily,1440,Active,2025-07-09T08:00:00+00:00
+60,41,HubSpot Pipeline 1,Hourly,60,Active,2025-07-10T08:00:00+00:00
+61,42,Zendesk Pipeline 1,Daily,1440,Active,2025-07-11T08:00:00+00:00
+62,42,Zendesk Pipeline 2,Daily,1440,Active,2025-07-12T08:00:00+00:00
+63,43,NetSuite Pipeline 1,Hourly,60,Active,2025-07-13T08:00:00+00:00
+64,43,NetSuite Pipeline 2,Hourly,60,Active,2025-07-14T08:00:00+00:00
+65,44,Stripe Pipeline 1,Every 6 hours,360,Active,2025-07-15T08:00:00+00:00
+66,44,Stripe Pipeline 2,Hourly,60,Active,2025-07-16T08:00:00+00:00
+67,45,Zendesk Pipeline 1,Every 6 hours,360,Active,2025-07-17T08:00:00+00:00
+68,45,Zendesk Pipeline 2,Daily,1440,Active,2025-07-18T08:00:00+00:00
+69,46,Google Analytics Pipeline 1,Daily,1440,Active,2025-07-19T08:00:00+00:00
+70,46,Google Analytics Pipeline 2,Weekly,10080,Active,2025-07-20T08:00:00+00:00
+71,47,NetSuite Pipeline 1,Hourly,60,Active,2025-07-21T08:00:00+00:00
+72,48,PostgreSQL Pipeline 1,Every 6 hours,360,Active,2025-07-22T08:00:00+00:00
+73,48,PostgreSQL Pipeline 2,Weekly,10080,Active,2025-07-23T08:00:00+00:00
+74,49,Zendesk Pipeline 1,Weekly,10080,Active,2025-07-24T08:00:00+00:00
+75,50,HubSpot Pipeline 1,Weekly,10080,Active,2025-07-25T08:00:00+00:00
