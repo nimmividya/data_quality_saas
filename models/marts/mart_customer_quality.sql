@@ -29,4 +29,4 @@ LEFT JOIN {{ ref('stg_customers') }} AS c
 
 GROUP BY
     a.customer_id,
-    c.customer_name
+    c.customer_namels -la models/marts
