@@ -8,7 +8,7 @@ import subprocess
 @dag(
     dag_id="data_quality_saas",
     start_date=datetime(2026, 1, 1),
-    schedule=None,
+    schedule="0 6 * * *",
     catchup=False,
     tags=["dbt", "data-quality"],
 )
