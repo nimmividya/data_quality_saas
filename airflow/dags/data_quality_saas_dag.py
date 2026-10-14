@@ -16,19 +16,38 @@ def data_quality_saas():
 
     @task
     def run_dbt_build():
-        result = subprocess.run(
-            [
-                "dbt",
-                "build",
-                "--project-dir",
-                "/opt/airflow/data_quality_saas",
-                "--profiles-dir",
-                "/opt/airflow/.dbt",
-            ],
-            check=True,
-            capture_output=True,
-            text=True,
-        )
+
+        try:
+            result = subprocess.run(
+                [
+                    "dbt",
+                    "build",
+                    "--project-dir",
+                    "/opt/airflow/data_quality_saas",
+                    "--profiles-dir",
+                    "/opt/airflow/.dbt",
+                ],
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+
+            print(result.stdout)
+            if result.stderr:
+                print(result.stderr)
+
+        except subprocess.CalledProcessError as exc:
+            print(f"dbt build failed with exit code: {exc.returncode}")
+
+            if exc.stdout:
+                print("dbt stdout:")
+                print(exc.stdout)
+
+            if exc.stderr:
+                print("dbt stderr:")
+                print(exc.stderr)
+
+            raise
 
         print(result.stdout)
         print(result.stderr)
